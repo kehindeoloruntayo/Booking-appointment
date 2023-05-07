@@ -1,0 +1,58 @@
+body {
+  background-image: url(/img/pexels-pixabay-139398.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 700px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+
+button.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* style landing.html */
+.container p {
+  font-size: 24px;
+}
+
+.success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
